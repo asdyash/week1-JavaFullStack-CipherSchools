@@ -1,0 +1,32 @@
+public  class lecture3 {
+
+
+
+    int employeeId;
+
+    int salary;
+
+    String dept;
+
+    lecture3(int eid , int s, String d) {
+
+        employeeId=eid;
+
+        salary=s;
+
+        dept =d;
+
+    }
+
+    public static void main(String[] args) {
+
+        lecture3 harsha = new lecture3(101,5200,"testing");
+
+        System.out.println(harsha.employeeId+" Salary "+harsha.salary+" Dept "+harsha.dept);
+
+        lecture3 varsha = new lecture3(102,8200,"design");
+
+        System.out.println(varsha.employeeId+" Salary "+varsha.salary+" Dept "+varsha.dept);
+
+    }
+}
