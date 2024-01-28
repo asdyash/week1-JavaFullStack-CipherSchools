@@ -1,0 +1,48 @@
+//program 1
+import java.util.Scanner;
+
+public class lecture3 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number: ");
+        int num=sc.nextInt();
+        if (num>0){
+            System.out.println("+ve");
+        }
+        else if(num==0){
+            System.out.println("neutral");
+        }
+        else{
+            System.out.println("-ve");
+        }
+    }
+}
+
+//program 2
+
+import java.util.Scanner;
+
+public class lecture3 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter salary: ");
+        int num=sc.nextInt();
+        if (num>=5000){
+          int h=(num/10); 
+          int d=(num/5);
+    int r=(h+d+ num);
+            System.out.println( "HRA :" + h+"DA : "+d+"Gross salary : "+r);
+        }
+        else if(num<5000){
+            int h=(num/5);
+            int d=(num*3/10);
+            int r=(h+d+ num);
+            System.out.println( "HRA :" + h+"DA : "+d+"Gross salary : "+r);
+            
+        }
+
+    }
+}
+
+
+
